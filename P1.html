@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<style>
+	*{font-family: Arial;
+	text-align: center
+	}
+</style>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+
+    <body id="home" class="open-left">
+        <div id="offcanvas-left" class="hide">
+            <ul>
+				<li><a href="P2.html" > Our Aisles </a></li>
+				<li><a href="P3.html" > Our Products </a></li>
+				<li><a href="P4.html" > Shopping Cart </a></li>
+				<li><a href="P5.html" > User login </a></li>
+				<li><a href="P6.html" > Sign up </a></li>
+            </ul>
+        </div>
+
+        <div class="togglebar">
+            <!-- adds the class of hide to .offcanvas.left -->
+            <div class="toggle" onclick="toggleLeft()">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="center">
+            <header>
+				<h1 style="color: #fff;">
+					 Welcome to Robin Hood's Dairy Market! <br> <i> Where the milk is always warm... </i> 
+				</h1>
+            </header>
+
+            <section>
+                <main>
+                    <article>
+                         <!--   <img src="https://i.imgur.com/ATf1chz.jpeg" alt="img not found!"/> (used the line below instead) -->
+			      <a href="https:google.ca" style="color:#3a8ac0"><img class ="banner" src="image0.jpg"/></a>
+			    
+                        <h6 style="font-size:16px; color:#3a8ac0">Look out below!</h6>
+						<hr>
+
+						<div>
+							<iframe width="800" height="450" margin-left="auto" margin-right="auto" 
+							src="https://www.youtube.com/embed/nRWzFf66qbk" frameborder="0" allow="accelerometer;
+							autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+							</iframe>
+						</div>
+						
+						<p> <br> </p>
+
+						<p>
+							<b>Welcome to Robin Hood's Milk Market. </b> We offer a variety of luxury and imported milk products,
+							most of which offer a variety of important nutrients and vitamins. For more about milk, please
+							visit <i> <a href="https://en.wikipedia.org/wiki/Milk"> wikipedia's informative article regarding milk.</i> </a>
+							<b>But if you ever feel we're out of your budget, feel free to visit 
+							<a href="https://www.maxi.ca/alimentation/produits-laitiers-et-ufs/lait-et-cr-me/c/28224?navid=CLP-L4-Lait-et-creme">
+							the competition. </b> </a> You'll come back. They always do. <br>
+						</p>
+
+						<blockquote>
+							"If our milk tastes sour, it's 'cause it's buttermilk."
+							<br>
+							-Geoff, the owner's son
+						</blockquote>
+
+						<p><br></p>
+
+						<table class="styled" id="product_table">
+							<colgroup>
+								<col style="background-color:#fef18c">
+							</colgroup>
+
+							<colgroup>
+								<col style="background-color:#3a8ac0">
+							</colgroup>
+
+							<colgroup>
+								<col style="background-color:#fef18c">
+							</colgroup>
+
+							<thead>
+								<tr>
+									<td colspan="3"> <b> Here is some information about our products: </b> </td>
+								</tr>
+							</thead>
+
+							<tbody>
+								<tr>
+									<td> <a href="https:google.ca" style="color:#3a8ac0"> Skim Milk </a></td>
+									<td> <a href="https:google.ca" style="color:#fef18c"> 1% Milk </a></td>
+									<td> <a href="https:google.ca" style="color:#3a8ac0"> 2% Milk </a></td> 
+								</tr>
+							</tbody>
+						</table>
+
+                    </article>
+                </main>
+
+                <footer>
+                    <section>
+						<table class="styled">
+							<tr>
+								<th colspan="2;" style="text-align:left"> <b>HOURS </b></th>
+							</tr>
+							
+							<tbody>
+								<tr>
+									<td style="text-align:left">Mon-Fri</td>
+									<td>0000-2359</td>
+								</tr>
+								
+								<tr>
+									<td style="text-align:left">Sat/Sun</td>
+									<td>0000-2359</td>
+								</tr>
+								
+								<tr>
+									<th colspan="2;" style="text-align:left"> <b>CONTACT </b></th>
+								</tr>
+								
+								<tr>
+									<td style="text-align:left">Phone</td>
+									<td>514-809-6084</td>
+								</tr>
+								
+								<tr>
+									<td style="text-align:left">Email</td>
+									<td>russhiltz17@gmail.com</td>
+								</tr>
+								
+							</tbody>
+						</table>
+                    </section>
+
+                    <section>
+                        <form action="/action_page.php" id="contact">
+                            <legend><b>Contact Us</b></legend>
+                            <input type="text" name="fullname" placeholder="Full name">
+                            <input type="text" name="email" placeholder="Email">
+                            <textarea name="msg" placeholder="Write message here"></textarea>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </section>
+
+                </footer>
+
+            </section>          
+        </div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>

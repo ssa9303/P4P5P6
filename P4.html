@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<style>
+	*{font-family: Arial;
+	text-align: center
+	}
+    .btn-primary {
+    color: #fff;
+    background-color: #3A8AC0;
+    border-color: #3A8AC0;
+}
+</style>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="index.css">
+<title>Shopping Cart</title>
+    </head>
+
+    <body id="home" class="open-left">
+        <div id="offcanvas-left" class="hide">
+            <ul>
+				<li><a href="P2.html" > Our Aisles </a></li>
+				<li><a href="P3.html" > Our Products </a></li>
+				<li><a href="P4.html" > Shopping Cart </a></li>
+				<li><a href="P5.html" > User login </a></li>
+				<li><a href="P6.html" > Sign up </a></li>
+            </ul>
+        </div>
+
+        <div class="togglebar">
+            <!-- adds the class of hide to .offcanvas.left -->
+            <div class="toggle" onclick="toggleLeft()">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="center">
+            <header>
+				<h1 style="color: #fff;">
+					 Welcome to Robin Hood's Dairy Market! <br> <i> Where the milk is always warm... </i> 
+				</h1>
+            </header>
+<br><br>
+            <section>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8" style="text-align: left;">
+                            <h2 style="text-align: left;">  Product in your cart </h2>
+
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="card" style="padding: 20px;">
+                                        <img src="chicken.jpg" width="40%" alt="">
+                                        <p style="text-align: left;">Chicken Drumsticks Clubpack</p>
+                                        <span style="text-align: left;">Price : $2.48ea</span>
+                                        <button class="btn btn-primary">Add More</button>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card" style="padding: 20px;">
+                                        <img src="chicken.jpg" width="40%" alt="">
+                                        <p style="text-align: left;">Chicken Drumsticks Clubpack</p>
+                                        <span style="text-align: left;">Price : $2.48ea</span>
+                                        <button class="btn btn-primary">Add More</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <h2 style="text-align: left;">  Order Summery </h2>
+                            <hr>
+                            <div class="card" style="padding: 20px;">
+                                <span style="text-align: left;">Items : 2</span> <br>
+                               <span style="text-align: left;"> QST : (9.975%) $ 4.99</span> <br>
+                               <span style="text-align: left;">GST : (5%) $2.50</span> <br>
+                               <span style="text-align: left;">Total Taxes $ 57.49</span> <br>
+                               <button class="btn btn-primary">PROCED TO CHECKOUT</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>          
+        </div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
